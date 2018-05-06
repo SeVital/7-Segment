@@ -1,0 +1,64 @@
+{
+  "uuid": "835b7d43-1806-4267-9e4e-0d65d719b3ad",
+  "shortName": "7-segment",
+  "longName": "7-segment light",
+  "companyName": "tmnhy inc.",
+  "versionCode": 1,
+  "versionLabel": "0.1",
+  "capabilities": [ "configurable"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0,
+    "W_KEY": 1,
+    "W_TEMP": 2,
+    "W_ICON": 3,
+    "W_CITY": 4,
+    "VIBE_BT": 5,
+    "VIBE_HOURLY": 6,
+    "S_STANDBY_I": 7,
+    "S_INFO_I": 8,
+    "S_RU_D": 9,
+    "S_AUTO": 10
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "DIGITS",
+        "file": "images/digits.png"
+      },
+      {
+        "type": "png",
+        "name": "DIGITS_MIDI",
+        "file": "images/digits_midi.png"
+      },
+      {
+        "type": "png",
+        "name": "BATTERY",
+        "file": "images/battery.png"
+      },
+      {
+        "type": "png",
+        "name": "BT",
+        "file": "images/bluetooth.png"
+      },
+      {
+        "type": "png",
+        "name": "DAYS",
+        "file": "images/days.png"
+      },
+      {
+        "type": "png",
+        "name": "WEATHER",
+        "file": "images/weather.png"
+      },
+      {
+        "type": "png",
+        "name": "AMPM",
+        "file": "images/ampm.png"
+      }
+    ]
+  }
+}
